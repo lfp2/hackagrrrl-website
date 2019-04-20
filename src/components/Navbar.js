@@ -27,22 +27,39 @@ export default class Navbar extends Component {
               Home
         </Menu.Item>
 
-            <Menu.Item name='reviews' active={activeItem === 'reviews'} onClick={() => {
-              scroller.scrollTo('Help', {
+            <Menu.Item name='FAQ' active={activeItem === 'reviews'} onClick={() => {
+              scroller.scrollTo('FAQ', {
                 duration: 800,
                 delay: 0,
                 smooth: 'easeInOutQuart'
               })
             }}>
-              Reviews
+              FAQ
         </Menu.Item>
 
             <Menu.Item
-              name='upcomingEvents'
-              active={activeItem === 'upcomingEvents'}
-              onClick={this.handleItemClick}
+              name='cronograma'
+              active={activeItem === 'cronograma'}
+              onClick={() => 
+              scroller.scrollTo('Cronograma', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+              })}
             >
-              Upcoming Events
+             Cronograma
+        </Menu.Item>
+        <Menu.Item
+              name='sponsors'
+              active={activeItem === 'sponsors'}
+              onClick={() => 
+              scroller.scrollTo('Organizations', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+              })}
+            >
+             Organizações
         </Menu.Item>
           </Menu.Menu>
         </Menu>
