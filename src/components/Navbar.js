@@ -26,17 +26,6 @@ export default class Navbar extends Component {
             >
               Home
         </Menu.Item>
-
-            <Menu.Item name='FAQ' active={activeItem === 'reviews'} onClick={() => {
-              scroller.scrollTo('FAQ', {
-                duration: 800,
-                delay: 0,
-                smooth: 'easeInOutQuart'
-              })
-            }}>
-              FAQ
-        </Menu.Item>
-
             <Menu.Item
               name='cronograma'
               active={activeItem === 'cronograma'}
@@ -48,6 +37,15 @@ export default class Navbar extends Component {
               })}
             >
              Cronograma
+        </Menu.Item>
+        <Menu.Item name='FAQ' active={activeItem === 'reviews'} onClick={() => {
+              scroller.scrollTo('FAQ', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+              })
+            }}>
+              FAQ
         </Menu.Item>
         <Menu.Item
               name='sponsors'

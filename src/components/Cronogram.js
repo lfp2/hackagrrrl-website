@@ -13,7 +13,7 @@ export default class Cronogram extends Component {
                                 <Icon name='flag checkered' />
                                 Pré-Inscrições
                             <Header.Subheader>
-                                    20/04 a 05/05
+                                    21/04 a 05/05
                             </Header.Subheader>
                             </Header>
                         </Grid.Column>

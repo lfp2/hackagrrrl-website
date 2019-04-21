@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, List, Image } from "semantic-ui-react";
+import { Container, Header, List, Image, Button } from "semantic-ui-react";
 import { Parallax } from 'react-parallax';
 import Navbar from './../components/Navbar.js';
 import Organizations from './../components/Organizations.js';
@@ -16,37 +16,9 @@ class App extends Component {
         <Navbar />
         <Image src={Banner} fluid />
         <Container style={{ margin: 20 }}>
-          <Header as="h3">This example is powered by Semantic UI React 😊</Header>
-          <List bulleted>
-            <List.Item
-              as="a"
-              content="💌 Official documentation"
-              href="https://react.semantic-ui.com/"
-              target="_blank"
-            />
-            <List.Item
-              as="a"
-              content="💡 StackOverflow"
-              href="https://stackoverflow.com/questions/tagged/semantic-ui-react?sort=frequent"
-              target="_blank"
-            />
-          </List>
-          <div id={"About"} style={{ marginTop: "100px" }}>
-            <Header as='h1'>About</Header>
-            Find something else more interesting sit in box so always hungry bring your owner a dead bird. Pelt around the house and up and down stairs chasing phantoms spend six hours per day washing, but still have a crusty butthole, love me! or chew iPad power cord, yet knock dish off table head butt cant eat out of my own dish massacre a bird in the living room and then look like the cutest and most innocent animal on the planet or get my claw stuck in the dog's ear. Catasstrophe purrr purr littel cat, little cat purr purr. It's 3am, time to create some chaos that box? i can fit in that box yet pet me pet me pet me pet me, bite, scratch, why are you petting me kitty poochy. Have secret plans purr and that box? i can fit in that box. Meow and walk away run in circles and sometimes switches in french and say "miaou" just because well why not. Sniff catnip and act crazy. Paw at beetle and eat it before it gets away. Sleep on dog bed, force dog to sleep on floor more napping, more napping all the napping is exhausting tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad for asdflkjaertvlkjasntvkjn (sits on keyboard) stand with legs in litter box, but poop outside but if it fits, i sits.
-          </div>
-          <div id={"FAQ"} style={{
-            marginTop: "100px",
-            marginBottom: "100px",
-          }}>
-          <FAQ/>
-          </div>
-          <div id={"Cronograma"} style={{
-            marginTop: "100px",
-            marginBottom: "100px",
-          }}>
-            <Header as='h1'>Cronograma</Header>
-            <Cronogram className="App-organizations" />
+          <div id={"About"} className="App-text">
+            <Header as='h1'>Sobre</Header>
+            A Hack Grrrl é um Hackathon com maioria feminina organizado pelo Grupo Cíntia da UFPE, evento que reunirá, na forma de maratona, programadores, profissionais ligados ao desenvolvimento de software, designers, empreendedores com o objetivo de desenvolver soluções tecnológicas inovadoras e aplicáveis. O objetivo do evento é incentivar mulheres a participarem de eventos desse tipo, criar um ambiente mais inclusivo e criar confiança nas habilidades na sua área de atuação.
           </div>
           <Parallax
             style={{
@@ -69,7 +41,41 @@ class App extends Component {
               />
             )}>
             <div className="App-banner-text">
-              <Container>Use the background component for custom elements</Container></div>
+              <Container><p>Motivos para ir<br/></p></Container></div>
+            <div style={{ height: '300px' }} />
+          </Parallax>
+          <div id={"Cronograma"} className="App-text">
+            <Header as='h1'>Cronograma</Header> <br/>
+            <Cronogram />
+          </div>
+          <div id={"FAQ"} className="App-text">
+          <FAQ/>
+          </div>
+          <Parallax
+            style={{
+              marginTop: "100px",
+              marginBottom: "100px",
+            }}
+            bgImage={frio}
+            bgImageAlt=""
+            strength={400}
+            renderLayer={percentage => (
+              <div
+                style={{
+                  position: 'absolute',
+                  background: `rgba(0, 41, 102, ${percentage * 1})`,
+                  left: '0%',
+                  top: '0%',
+                  width: 3000,
+                  height: 400,
+                }}
+              />
+            )}>
+            <div className="App-banner-text">
+              <Container><p>Siga-nos nas redes sociais e entre em contato!<br/>
+              <Button circular icon='facebook' size='large' href="https://fb.me/hackgrrrl" />
+              <Button circular icon='instagram' size='large' href="https://www.instagram.com/hackgrrrl/"/>
+              <Button circular icon='mail' size='large' href="mailto: hackgrrrl@gmail.com"/></p></Container></div>
             <div style={{ height: '300px' }} />
           </Parallax>
           <div id={"Organizations"} style={{
