@@ -7,7 +7,6 @@ import Copyright from './../components/Copyright.js';
 import Cronogram from './../components/Cronogram.js';
 import FAQ from './../components/FAQ.js';
 import Inscricoes from './../components/Inscricoes.js';
-import frio from './../logos/frio.jpg';
 import Banner from './../logos/banner_site_hack_girrrl.png';
 import laptopBanner from './../logos/LaptopImage.jpg';
 
@@ -22,7 +21,7 @@ class App extends Component {
             <div className="App-header">Sobre</div>
             A Hack Grrrl é um Hackathon com maioria feminina organizado pelo Grupo Cíntia da UFPE, evento que reunirá, na forma de maratona, programadores, profissionais ligados ao desenvolvimento de software, designers, empreendedores com o objetivo de desenvolver soluções tecnológicas inovadoras e aplicáveis. O objetivo do evento é incentivar mulheres a participarem de eventos desse tipo, criar um ambiente mais inclusivo e criar confiança nas habilidades na sua área de atuação.
           </div>
-          <Inscricoes />
+          <Inscricoes/>
           <div className="App-header">Cronograma</div>
           <div id={"Cronograma"} className="App-text">
             <Cronogram />

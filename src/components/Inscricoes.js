@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Grid, Button } from "semantic-ui-react";
+import {Button } from "semantic-ui-react";
 
 export default class Copyright extends Component {
     render() {
         return (
             <React.Fragment>
-                <div id={"About"} className="App-text">
+                <div id={"Inscricoes"} className="App-text">
                     <div className="App-header">Inscrições</div>
                     Leia nosso edital e se inscreva no Hack Grrrl!</div>
                     <div className="App-buttons">

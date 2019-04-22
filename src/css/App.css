@@ -22,6 +22,15 @@
   color: white;
 }
 
+.App-cinta-text{
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
 .App-buttons{
   display: flex;
   flex-direction: column;

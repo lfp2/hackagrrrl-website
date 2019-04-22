@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Divider, Image, Grid, Container } from 'semantic-ui-react';
 import logoCesar from "./../logos/logo_cesar.png";
+import logoCesarSchool from "./../logos/logo_cesar_school.png";
 import logoCintia from "./../logos/logo_cintia.png";
 import logoCIn from "./../logos/logo_cin.png";
 import logoShawee from "./../logos/logo_shawee.png";
@@ -42,6 +43,9 @@ export default class Organizations extends Component {
                         </Grid.Column>
                         <Grid.Column>
                             <Image src={logoCesar} href='https://www.cesar.org.br' size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoCesarSchool} href='https://www.cesar.school' size='small' />
                         </Grid.Column>
                         <Grid.Column>
                             <Image src={logoShawee} href='https://shawee.io/' size='small' />
