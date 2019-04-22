@@ -15,7 +15,7 @@ export default class FAQ extends Component {
         const { activeIndex } = this.state
         return (
             <React.Fragment>
-                <Header as='h1'>FAQ</Header>
+            <div className="App-header">FAQ</div>
                 <Accordion fluid styled>
                     <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
                         <Icon name='dropdown' />

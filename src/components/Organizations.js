@@ -13,7 +13,9 @@ export default class Organizations extends Component {
     render() {
         return (
             <React.Fragment>
-                <Divider horizontal>Realização</Divider>
+                <Divider horizontal>
+                    Organização
+                </Divider>
                 <div className="App-organizations">
                     <Grid stackable columns='equal'>
                     <Grid.Column>
