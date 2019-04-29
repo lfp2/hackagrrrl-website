@@ -36,7 +36,7 @@ export default class FAQ extends Component {
                         Qual o nível de experiência necessário?
           </Accordion.Title>
                     <Accordion.Content active={activeIndex === 2}>
-                        <p>Pessoas de todos os níveis de experiência serão chamadas - desde que estejam no ensino superior e sejam maiores de 18 anos.</p>
+                        <p>Pessoas de todos os níveis de experiência serão chamadas - desde que sejam maiores de 18 anos, estejam no ensino superior ou se formaram em 2018.</p>
                     </Accordion.Content>
                     <Accordion.Title active={activeIndex === 3} index={3} onClick={this.handleClick}>
                         <Icon name='dropdown' />

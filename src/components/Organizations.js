@@ -7,7 +7,9 @@ import logoCIn from "./../logos/logo_cin.png";
 import logoShawee from "./../logos/logo_shawee.png";
 import logoMinas from "./../logos/logo_minas.png";
 import logoVinta from "./../logos/logo_vinta.png";
-import logoHack from "./../logos/logo_hacknjoy.png"
+import logoHack from "./../logos/logo_hacknjoy.png";
+import logoFablab from "./../logos/logo_fablab.png";
+import logoConcrete from "./../logos/Concrete-Loop.gif";
 import "./../css/App.css"
 
 export default class Organizations extends Component {
@@ -53,6 +55,12 @@ export default class Organizations extends Component {
                         
                         <Grid.Column>
                             <Image src={logoHack} href='http://cin.ufpe.br/~sciot/hacknjoy/' size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoConcrete} href='https://www.concrete.com.br/' size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoFablab} href='https://www.fablabrecife.com/' size='small' />
                         </Grid.Column>
                     </Grid>
                 </div>
