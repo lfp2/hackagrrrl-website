@@ -21,7 +21,7 @@ export default class Cronogram extends Component {
                             <Header as='h2' icon>
                                 <Icon name='bullhorn' />
                                 Chamada dos selecionados
-                            <Header.Subheader>Em breve</Header.Subheader>
+                            <Header.Subheader>09/05</Header.Subheader>
                             </Header>
                         </Grid.Column>
                         <Grid.Column>

@@ -15,6 +15,9 @@ export default class Copyright extends Component {
                     <div className="App-buttons">
                         <Button size='large' href='https://drive.google.com/file/d/1K_J4j6WAAy9urjx6IxJ6xKgVJ7sAef0Z/view?usp=sharing'>Edital</Button>
                     </div>
+                    <div className="App-buttons">
+                        <Button size='large' href='https://drive.google.com/open?id=1-Cal1C-NoBCNoFKvad52zYvgL71kdO4R'>Código de Conduta</Button>
+                    </div>
             </React.Fragment>
         )
     }

@@ -10,6 +10,7 @@ import logoVinta from "./../logos/logo_vinta.png";
 import logoHack from "./../logos/logo_hacknjoy.png";
 import logoFablab from "./../logos/logo_fablab.png";
 import logoConcrete from "./../logos/Concrete-Loop.gif";
+import logoGithub from "./../logos/GitHub_Logo.png";
 import "./../css/App.css"
 
 export default class Organizations extends Component {
@@ -17,13 +18,23 @@ export default class Organizations extends Component {
         return (
             <React.Fragment>
                 <Divider horizontal>
-                    Organização
+                    Realização
                 </Divider>
                 <div className="App-organizations">
                     <Grid stackable columns='equal'>
                     <Grid.Column>
                             <Image src={logoCintia} href='http://www.cin.ufpe.br/~cintia/' size='small' />
                         </Grid.Column>
+                    </Grid>
+                </div>
+                <Divider horizontal>
+                    Co-Realização
+                </Divider>
+                <div className="App-organizations">
+                    <Grid stackable columns='equal'>
+                    <Grid.Column>
+                            <Image src={logoMinas} href='http://www.portodigital.org/119/37847-porto-digital-lanca-as-minas-programa-de-equidade-de-genero' size='small' />
+                    </Grid.Column>
                     </Grid>
                 </div>
                 <Divider horizontal>Patrocínio</Divider>
@@ -35,6 +46,9 @@ export default class Organizations extends Component {
                         <Grid.Column>
                             <Image src={logoCesarSchool} href='https://www.cesar.school' size='small' />
                         </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoGithub} href='https://github.com/' size='small' />
+                        </Grid.Column>
                     <Grid.Column>
                             <Image src={logoVinta} href='https://www.vinta.com.br' size='small' />
                         </Grid.Column>
@@ -45,9 +59,6 @@ export default class Organizations extends Component {
                     <Grid stackable columns='equal'>
                         <Grid.Column>
                             <Image src={logoCIn} href='http://www.cin.ufpe.br/' size='small' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src={logoMinas} href='http://www.portodigital.org/119/37847-porto-digital-lanca-as-minas-programa-de-equidade-de-genero' size='small' />
                         </Grid.Column>
                         <Grid.Column>
                             <Image src={logoShawee} href='https://shawee.io/' size='small' />
