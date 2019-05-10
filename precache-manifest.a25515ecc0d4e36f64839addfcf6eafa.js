@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "b1375a85ac99e557b1b1bc1b1921ccad",
-    "url": "/static/media/logo_cintia.b1375a85.png"
+    "revision": "96147a8ce7c4b91771f8781d84152652",
+    "url": "/static/media/logo_shawee.96147a8c.png"
   },
   {
-    "revision": "5ac8e152257a77f5bf8e",
+    "revision": "7580b393b7e6e671f8d1",
     "url": "/static/css/main.0286bf03.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "78274a44e67eb2915d46",
-    "url": "/static/js/2.f435914d.chunk.js"
+    "revision": "0efa42ed29b88e62f741",
+    "url": "/static/js/2.c9a9c218.chunk.js"
   },
   {
     "revision": "e3b1be03f93020f1a1ff97e8a7725593",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/logo_cesar_school.06c826f7.png"
   },
   {
-    "revision": "5ac8e152257a77f5bf8e",
-    "url": "/static/js/main.32a4d41e.chunk.js"
+    "revision": "b1375a85ac99e557b1b1bc1b1921ccad",
+    "url": "/static/media/logo_cintia.b1375a85.png"
   },
   {
-    "revision": "96147a8ce7c4b91771f8781d84152652",
-    "url": "/static/media/logo_shawee.96147a8c.png"
+    "revision": "7580b393b7e6e671f8d1",
+    "url": "/static/js/main.b774d761.chunk.js"
   },
   {
     "revision": "4de17bd624861d9cfd85b3517b0ce6f4",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/static/media/Concrete-Loop.8bea03fc.gif"
   },
   {
+    "revision": "cefc20232703e5e3c24efd5f50d75e26",
+    "url": "/static/media/GitHub_Logo.cefc2023.png"
+  },
+  {
     "revision": "c510036ef8f62fcc87ed12fb5bde4c59",
     "url": "/static/media/banner_site_hack_girrrl.c510036e.png"
   },
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/LaptopImage.5ae8a8d3.jpg"
   },
   {
-    "revision": "7143c1619d32a50386f77389704d8732",
+    "revision": "7f06beb6949dfdc4522ca652ed93f498",
     "url": "/index.html"
   }
 ];
