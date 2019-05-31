@@ -28,7 +28,7 @@ export default class Cronogram extends Component {
                             <Header as='h2' icon>
                                 <Icon name='computer' />
                                 Workshops
-                            <Header.Subheader>Em breve</Header.Subheader>
+                            <Header.Subheader>08/06</Header.Subheader>
                             </Header>
                         </Grid.Column>
                         <Grid.Column>

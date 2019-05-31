@@ -27,6 +27,18 @@ export default class Navbar extends Component {
               Home
         </Menu.Item>
         <Menu.Item
+              name='workshops'
+              active={activeItem === 'workshops'}
+              onClick={() => 
+              scroller.scrollTo('Workshops', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+              })}
+            >
+             Workshops
+        </Menu.Item>
+        <Menu.Item
               name='inscricoes'
               active={activeItem === 'inscricoes'}
               onClick={() => 

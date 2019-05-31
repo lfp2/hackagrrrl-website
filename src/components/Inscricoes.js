@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import {Button } from "semantic-ui-react";
 
-export default class Copyright extends Component {
+export default class Inscricoes extends Component {
     render() {
         return (
             <React.Fragment>
                 <div id={"Inscricoes"} className="App-text">
                     <div className="App-header">Inscrições</div>
-                    Leia nosso edital e se inscreva no Hack Grrrl!</div>
+                    As inscrições para o Hack Grrrl se encerraram, muito obrigada pelo interesse!</div>
                     <div className="App-buttons">
-                        <Button size='big' color='violet' href='https://forms.gle/DUQzhFEHCbjvu3fG8'>
+                        <Button size='big' color='violet' href='https://forms.gle/DUQzhFEHCbjvu3fG8' disabled>
                             Inscrições</Button>
                     </div>
                     <div className="App-buttons">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Divider, Image, Grid, Container } from 'semantic-ui-react';
+import { Divider, Image, Grid, Container, GridRow } from 'semantic-ui-react';
 import logoCesar from "./../logos/logo_cesar.png";
 import logoCesarSchool from "./../logos/logo_cesar_school.png";
 import logoCintia from "./../logos/logo_cintia.png";
@@ -11,6 +11,10 @@ import logoHack from "./../logos/logo_hacknjoy.png";
 import logoFablab from "./../logos/logo_fablab.png";
 import logoConcrete from "./../logos/Concrete-Loop.gif";
 import logoGithub from "./../logos/GitHub_Logo.png";
+import logoIdux from "./../logos/logo_idux.png";
+import logoMctic from "./../logos/logo_mctic.png";
+import logoGoverno from "./../logos/logo_governo.png";
+import logoVtex from "./../logos/logo_vtex.png";
 import "./../css/App.css"
 
 export default class Organizations extends Component {
@@ -49,6 +53,9 @@ export default class Organizations extends Component {
                         <Grid.Column>
                             <Image src={logoGithub} href='https://github.com/' size='small' />
                         </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoVtex} href='https://github.com/' size='small' />
+                        </Grid.Column>
                     <Grid.Column>
                             <Image src={logoVinta} href='https://www.vinta.com.br' size='small' />
                         </Grid.Column>
@@ -57,9 +64,6 @@ export default class Organizations extends Component {
                 <Divider horizontal>Apoio</Divider>
                 <div className="App-organizations">
                     <Grid stackable columns='equal'>
-                        <Grid.Column>
-                            <Image src={logoCIn} href='http://www.cin.ufpe.br/' size='small' />
-                        </Grid.Column>
                         <Grid.Column>
                             <Image src={logoShawee} href='https://shawee.io/' size='small' />
                         </Grid.Column>
@@ -72,6 +76,18 @@ export default class Organizations extends Component {
                         </Grid.Column>
                         <Grid.Column>
                             <Image src={logoFablab} href='https://www.fablabrecife.com/' size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoIdux} size='small' />
+                        </Grid.Column>
+                    <Grid.Column>
+                            <Image src={logoCIn} href='http://www.cin.ufpe.br/' size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoMctic} size='small' />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Image src={logoGoverno} size='small' />
                         </Grid.Column>
                     </Grid>
                 </div>
