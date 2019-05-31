@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/static/media/logo_shawee.96147a8c.png"
   },
   {
-    "revision": "7580b393b7e6e671f8d1",
-    "url": "/static/css/main.0286bf03.chunk.css"
+    "revision": "c9d1e20a000f13aa6135",
+    "url": "/static/css/main.22c7186d.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0efa42ed29b88e62f741",
-    "url": "/static/js/2.c9a9c218.chunk.js"
+    "revision": "5ae8a8d30bdabca7552718341442b4d6",
+    "url": "/static/media/LaptopImage.5ae8a8d3.jpg"
+  },
+  {
+    "revision": "f9c01307f2c792af112f",
+    "url": "/static/js/2.3eaeab7f.chunk.js"
   },
   {
     "revision": "e3b1be03f93020f1a1ff97e8a7725593",
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo_cintia.b1375a85.png"
   },
   {
-    "revision": "7580b393b7e6e671f8d1",
-    "url": "/static/js/main.b774d761.chunk.js"
+    "revision": "c9d1e20a000f13aa6135",
+    "url": "/static/js/main.b98ffaa3.chunk.js"
   },
   {
     "revision": "4de17bd624861d9cfd85b3517b0ce6f4",
@@ -52,15 +56,23 @@ self.__precacheManifest = [
     "url": "/static/media/GitHub_Logo.cefc2023.png"
   },
   {
+    "revision": "10b8b4df55224cfa3f69974f992bf374",
+    "url": "/static/media/logo_idux.10b8b4df.png"
+  },
+  {
+    "revision": "f3ba1e5e59eb29754597290f0c09eb10",
+    "url": "/static/media/logo_vtex.f3ba1e5e.png"
+  },
+  {
     "revision": "c510036ef8f62fcc87ed12fb5bde4c59",
     "url": "/static/media/banner_site_hack_girrrl.c510036e.png"
   },
   {
-    "revision": "5ae8a8d30bdabca7552718341442b4d6",
-    "url": "/static/media/LaptopImage.5ae8a8d3.jpg"
+    "revision": "f9c01307f2c792af112f",
+    "url": "/static/css/2.73678825.chunk.css"
   },
   {
-    "revision": "7f06beb6949dfdc4522ca652ed93f498",
+    "revision": "0a57e0670121021a86c3d57b766a35a8",
     "url": "/index.html"
   }
 ];
